@@ -1,0 +1,25 @@
+/* Base Tailwind CSS styling will handle most of the design.
+   Add custom styles here if needed. */
+
+   html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  @media (max-inline-size: 640px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
+  
